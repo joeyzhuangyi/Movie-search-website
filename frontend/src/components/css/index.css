@@ -1,0 +1,117 @@
+body {
+  background-image: url("./moodvie-theme.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; 
+  height: 100%;
+}
+
+.logo {
+    height: 200;
+    width: 500;
+}
+
+.moodvie {
+    font-family: 'Righteous';
+    font-size: 110px;
+    text-shadow: 3px 3px black;
+    color: #f9f7f7;
+}
+.display-middle {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%)
+}
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 30px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+        font-size: 14px;
+}
+
+.search {
+    width: 100%;
+    position: relative
+  }
+  
+  .searchTerm {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  .searchTerm:focus{
+    color:#000000;
+  }
+  
+  .searchButton {
+    position: absolute;  
+    right: -50px;
+    width: 50px;
+    height: 45px;
+    border: 1px solid #000000;
+    background: #000000;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .searchButton:hover {
+    color: rgb(255, 255, 255, 0.7);
+    transition-delay: 0.2s;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 100%;
+    position: absolute;
+    top: 130%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  /*https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting*/
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+.needhelp {
+    position: fixed;
+        left: 0;
+        bottom: -100%;
+        font-style: bold;
+        text-decoration: underline;
+        width: 110%;
+        color: lightgray;
+        text-align: center;
+        font-family: 'Sarabun', sans-serif;
+        font-size: 12px;
+}
+.needhelp:hover{
+    color: pink;
+}
+
+  

@@ -1,0 +1,41 @@
+{
+  "name": "thrid",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^1.9.1",
+    "jwt-decode": "^2.2.0",
+    "node-sass": "^4.11.0",
+    "query-string": "^6.1.0",
+    "react": "^16.8.4",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.4",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-share": "^2.4.0",
+    "sass": "^1.17.3",
+    "typescript": "^3.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "scss": "node-sass style.scss style.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

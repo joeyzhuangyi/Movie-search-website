@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+.moodvie_icon {
+  font-family: "Righteous", sans-serif;
+  font-size: 30px;
+  color: azure;
+  text-shadow: 3px 3px black;
+}
+
+.moodvie_result_icon {
+  font-family: "Righteous", sans-serif;
+  font-size: 60px;
+  text-shadow: 3px 3px black;
+  width: fit-content;
+  float: left;
+  padding-left: 4%;
+}

@@ -1,0 +1,98 @@
+.container {
+    width: 500px;
+    clear: both;
+  }
+  
+  .container input {
+    width: 100%;
+    clear: both;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Righteous");
+.h {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+.body {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.form-group {
+  height: 100vh;
+  width: 100vh;
+  overflow: hidden;
+}
+.searchterm {
+  font-family: "Righteous", sans-serif;
+  font-size: 110px;
+  text-shadow: 3px 3px black;
+  color: #f9f7f7;
+}
+
+.display-middle {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.form-control {
+  position: absolute;
+  top: 52%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 40%;
+
+  padding: 5px;
+  height: 50px;
+  width: 500px;
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: white;
+}
+
+.btn-danger {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  position: absolute;
+  left: 67.6%;
+  top: 52%;
+  width: 82px;
+  height: 48px;
+
+  background: #000000;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-danger:hover {
+  color: rgb(255, 255, 255, 0.7);
+  transition-delay: 0.2s;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: "Sarabun", sans-serif;
+  font-size: 14px;
+}

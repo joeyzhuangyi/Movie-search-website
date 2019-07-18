@@ -1,0 +1,95 @@
+.headerContainer {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  height: 120px;
+}
+
+.movieBlock {
+  margin-left: 30px;
+}
+
+#searchButton {
+  display: inline-block;
+  font-weight: 400;
+  color: #16528f;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-top: 35px;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  /* Don't change these bottom 2 */
+  height: 29.68px;
+  text-align: center;
+}
+
+.bottom {
+  width: 100%;
+  height: 900px;
+}
+.navigation {
+  height: 100%;
+  width: 30%;
+  float: left;
+  padding: 8px;
+}
+.profile {
+  float: right;
+  width: 70%;
+  padding: 8px;
+}
+
+.welcome {
+  text-align: center;
+  padding: 20px;
+}
+
+.profileImageDiv {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+.profileImage {
+  height: 200px;
+  width: 200px;
+}
+
+.details {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.detailField {
+  margin-right: 30px;
+}
+
+.searchForm {
+  width: 400px;
+  float: left;
+}
+
+.searchbtn {
+  float: left;
+}
+
+.test {
+  width: 500;
+  height: 40px;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

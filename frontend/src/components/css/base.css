@@ -1,0 +1,75 @@
+#uniformsearchBar {
+    width: 50%;
+    position: relative;
+    float: left;
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+  .searchTerm:focus{
+    color:#000000;
+  }
+  
+  .searchButton {
+    position: absolute;  
+    right: -50px;
+    width: 50px;
+    height: 45px;
+    border: 1px solid #000000;
+    background: #000000;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  .searchButton:hover {
+    color: rgb(255, 255, 255, 0.7);
+    transition-delay: 0.2s;
+  }
+
+.moodvie {
+    font-family: 'Righteous';
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+    color: #f9f7f7;
+    float: left;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.top-bar {
+    width: auto;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    background-image: url("../images/moodvie-theme.png");
+}
+
+.container {
+  height: 80%;
+  padding-top: 20%;
+  width: absolute;
+}
+
+.col-md {
+  border: 1px black solid;
+  height: 300px;
+}

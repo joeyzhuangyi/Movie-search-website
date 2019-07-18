@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Sarabun");
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 180px;
+  min-height: 270px;
+}
+
+.box {
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  width: 200px;
+  height: 333px;
+}
+
+.card-body {
+}
+
+.btn {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transition: 0.3s;
+  border: 2px black solid;
+}
+
+.btn:hover {
+  background-color: grey;
+  border: 2px grey solid;
+  color: black;
+}
+
+.card-title {
+  font-weight: bold;
+  font-family: Sarabun, sans-serif;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 0.2mm;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

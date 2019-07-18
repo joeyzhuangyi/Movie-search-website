@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+.logo_img {
+  margin-left: 0.3cm;
+  width: 0.5cm;
+  height: 0.33cm;
+}
+.link_img {
+  margin-left: 0.1cm;
+  width: 1cm;
+  height: auto;
+}
+.cast {
+  margin-top: 0.3cm;
+  margin-bottom: 0.3cm;
+  font-size: 130%;
+}
+
+.reviewlogo {
+  width: 1.2cm;
+  height: 1.2cm;
+}
+
+.ratingTitle {
+  font-family: "Orbitron", sans-serif;
+}
+.rating {
+  font-family: "Audiowide", sans-serif;
+  float: left;
+  margin-right: 30px;
+}
+.trailor {
+  clear: both;
+  padding-top: 20px;
+}
+.trailerImg {
+  height: 4cm;
+  width: auto;
+}
